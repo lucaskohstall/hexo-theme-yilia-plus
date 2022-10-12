@@ -10,6 +10,9 @@
 		<hgroup>
 			<h1 class="header-author"><a href="<%- url_for('/') %>"><%= config.author %></a></h1>
 		</hgroup>
+		<hgroup>
+			<p><a href="<%- url_for('/') %>"><%= config.description %></p></h1>
+		</hgroup>
 		<% if (config.subtitle) { %>
 		<p class="header-subtitle"><%= config.subtitle %></p>
 		<%}%>

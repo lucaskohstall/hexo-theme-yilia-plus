@@ -1,15 +1,14 @@
 ﻿# Header-菜单
 menu:
-  主页: /
-  技术笔记: https://zhousiwei.gitee.io/ibooks/
-  随笔: /tags/随笔/
+  Index: /
+  Tags: /tags/
 
 # subNav-子导航
 subNav:
-  - github: "#"
-  - github: "#" # (支持设置多个)
-  - gitee: "#" # 码云
-  - jianshu: "#" #简书
+  - github: "https://github.com/lucaskohstall"
+  # - github: "#" # (支持设置多个)
+  # - gitee: "#" # 码云
+  # - jianshu: "#" #简书
   # - cnblog: "#"
   # - blog: "#"
   # - csdn: "#"
@@ -37,7 +36,7 @@ hover_effect:
   subNav: true
 
 # RSS订阅(关于如何配置启用:https://www.jianshu.com/p/2aaac7a19736)
-rss: /atom.xml
+# rss: /atom.xml
 
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
@@ -48,11 +47,11 @@ rss: /atom.xml
 # Content
 
 # 文章太长，截断按钮文字(在需要截断的行增加此标记：<!--more-->)
-excerpt_link: more
+# excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
-show_all_link: '展开全文'
+# show_all_link: '展开全文'
 # 数学公式
-mathjax: false
+# mathjax: false
 
 # Open link in a new tab | 是否在新窗口打开链接
 open_in_new:
@@ -90,10 +89,10 @@ google_analytics: ''
 favicon: /favicon.ico
 
 # 你的头像url
-avatar: /img/head.jpg
+avatar: /img/head.png
 
 # 是否开启分享
-share_jia: true
+share_jia: false
 
 # 评论：1、畅言；2、Disqus；3、Gitment；4、Giteement
 # 不需要使用某项，直接设置值为false，或注释掉
@@ -260,9 +259,9 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: '所有文章'
-  friends: '友链'
-  aboutme: '关于我'
+  innerArchive: 'Archive'
+  friends: 'Friends'
+  aboutme: 'About me'
 
 # 友情链接
 friends:

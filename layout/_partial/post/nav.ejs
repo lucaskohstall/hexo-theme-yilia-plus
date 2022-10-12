@@ -12,11 +12,5 @@
       </div>
     </a>
   <% } %>
-  <% if (post.next){ %>
-    <a href="<%- url_for(post.next.path) %>" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title"><%= post.next.title %></div>
-      <i class="icon-circle-right"></i>
-    </a>
-  <% } %>
 </nav>
 <% } %>
